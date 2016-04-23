@@ -1,0 +1,23 @@
+{
+  "name": "ucuenca_acm_frontpage",
+  "homepage": "https://github.com/ucuenca-acm/frontpage",
+  "authors": [
+    "Daniel Campoverde [alx741] <alx741@riseup.net>"
+  ],
+  "description": "UCuenca ACM Student Chapter",
+  "main": "index.html",
+  "keywords": [
+    "acm",
+    "ucuenca",
+    "student",
+    "chapter"
+  ],
+  "license": "GPLv3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
