@@ -2,6 +2,18 @@ body {
     background-color: #f3f3ff;
     margin: 0px;
     padding: 0px;
+    font-size: medium;
+}
+
+body h3 {
+    text-shadow: 1px 1px 1px black;
+    font-size: 2em;
+}
+
+body h4 {
+    text-shadow: 1px 1px 1px gray;
+    font-size: 1.5em;
+    text-decoration: underline;
 }
 
 header {
@@ -10,6 +22,7 @@ header {
     margin: 0px;
     padding: 0px;
     position: relative;
+    z-index: 100;
 }
 
 #acm_logo {
@@ -54,6 +67,9 @@ h2 {
     width: 100%;
     background: #6be6ef;
     padding: 15px;
+    box-shadow: 0px 5px 8px gray;
+    position: relative;
+    z-index: 90;
 }
 
 #ucuenca-landscape {
@@ -68,4 +84,29 @@ h2 {
     left: 0;
     right: 0;
     /* box-shadow: 0px 5px 8px gray; */
+}
+
+#article-why {
+    height: 600px;
+    width: 100%;
+    background: #88aee1;
+    padding: 15px;
+    box-shadow: 0px 5px 8px gray;
+    position: relative;
+    z-index: 80;
+    color: white;
+}
+
+#article-why .text {
+    margin-top: 25px;
+    width: 50%;
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+#article-why .video {
+    margin-top: 50px;
+    width: 50%;
+    height: 100%;
+    background: red;
 }
