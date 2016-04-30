@@ -5,6 +5,17 @@ body {
     font-size: medium;
 }
 
+h1 {
+    font-size: 3.5em;
+    font-family: Georgia;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: Verdana;
+}
+
 h3 {
     text-shadow: 1px 1px 1px black;
     font-size: 40px;
@@ -38,29 +49,6 @@ header {
     padding: 0px;
 }
 
-h1 {
-    font-size: 3.5em;
-    font-family: Georgia;
-    font-weight: bold;
-}
-
-h2 {
-    font-size: 2em;
-    font-family: Verdana;
-}
-
-@media (max-width: 768px) {
-    header .centered {
-        text-align: center;
-    }
-
-    #acm_logo {
-        max-width: 100px;
-    }
-
-    h1 { font-size: 2em; }
-    h2 { font-size: 1.5em; }
-}
 
 #article-ucuenca {
     height: 400px;
@@ -99,15 +87,12 @@ h2 {
 
 #article-why .text {
     margin-top: 25px;
-    width: 50%;
     font-size: 1.5em;
     text-align: justify;
 }
 
 #article-why .video {
     margin-top: 50px;
-    width: 50%;
-    height: 100%;
     background: red;
 }
 
@@ -126,4 +111,73 @@ h2 {
 
 #article-contact .icons img{
     width: 70px;
+}
+
+#article-staff {
+    height: 800px;
+    width: 100%;
+    background: #88aee1;
+    padding: 15px;
+    box-shadow: 0px 5px 8px gray;
+    position: relative;
+    z-index: 60;
+    color: white;
+}
+
+#article-staff table {
+    color: black;
+    background-color: white;
+}
+
+@media (max-width: 1100px) {
+
+    #article-why {
+        height: 800px;
+    }
+}
+
+@media (max-width: 992px) {
+    h3 { font-size: 30px; }
+    h4 { font-size: 20px; }
+
+    #article-why {
+        height: 1000px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 { font-size: 2em; }
+    h2 { font-size: 1.5em; }
+
+    header .centered {
+        text-align: center;
+    }
+
+    #acm_logo {
+        max-width: 100px;
+    }
+
+    #article-why {
+        height: 1200px;
+    }
+
+    #article-staff {
+        height: 900px;
+    }
+}
+
+@media (max-width: 700px) {
+    #article-staff {
+        height: 1000px;
+    }
+}
+
+@media (max-width: 650px) {
+    #article-contact {
+        height: 500px;
+    }
+
+    #article-staff {
+        height: 1150px;
+    }
 }
