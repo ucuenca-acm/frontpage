@@ -1,22 +1,43 @@
-header
-{
+header {
+    background: #88aee1;
     margin: 0px;
-    padding: 10px;
+    padding: 0px;
 }
 
-#acm_logo
-{
-    width: 10%;
-    vertical-align: middle;
-    margin-left: 30px;
-    float: left;
-}
-
-#title
-{
-    vertical-align: middle;
-    text-align: center;
+#acm_logo {
+    max-width: 150px;
+    /* min-width: 50%; */
+    margin: 10px auto;
+    /* vertical-align: middle; */
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+#title {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 3.5em;
+    font-family: Georgia;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: Verdana;
+}
+
+@media (max-width: 800px) {
+    header .centered {
+        text-align: center;
+    }
+
+    #acm_logo {
+        max-width: 100px;
+    }
+
+    h1 { font-size: 2em; }
+    h2 { font-size: 1.5em; }
 }
