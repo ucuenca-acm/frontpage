@@ -1,4 +1,9 @@
+body {
+    background-color: #eef;
+}
+
 header {
+    box-shadow: 0px 5px 8px gray;
     background: #88aee1;
     margin: 0px;
     padding: 0px;
@@ -6,13 +11,12 @@ header {
 
 #acm_logo {
     max-width: 150px;
-    /* min-width: 50%; */
     margin: 10px auto;
-    /* vertical-align: middle; */
     display: block;
 }
 
 #title {
+    text-shadow: 1px 1px 1px gray;
     color: white;
     margin: 0px;
     padding: 0px;
