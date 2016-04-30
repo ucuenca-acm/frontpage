@@ -29,7 +29,7 @@ h2 {
     font-family: Verdana;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     header .centered {
         text-align: center;
     }
