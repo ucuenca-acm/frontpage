@@ -23,14 +23,40 @@ h2 {
 }
 
 h3 {
-    text-shadow: 1px 1px 1px black;
     font-size: 40px;
 }
 
 h4 {
-    text-shadow: 1px 1px 1px gray;
     font-size: 30px;
     text-decoration: underline;
+}
+
+.article-1 {
+    box-shadow: 0px 3px 8px #fdf6e3;
+    background-color: #fdf6e3;
+    color: #586e75;
+}
+
+.article-1 h3 {
+    color: #002b36;
+}
+
+.article-1 h4 {
+    color: #586e75;
+}
+
+.article-2 {
+    box-shadow: 0px 3px 8px #657b83;
+    background-color: #657b83;
+    color: #fdf6e3;
+}
+
+.article-2 h3 {
+    color: white;
+}
+
+.article-2 h4 {
+    color: #eee8d5;
 }
 
 header {
@@ -61,11 +87,9 @@ header {
     font-size: 2.5em;
 }
 
-
 #article-ucuenca {
     height: 400px;
     width: 100%;
-    background: #66e2d1;
     padding: 15px;
     box-shadow: 0px 5px 8px gray;
     position: relative;
@@ -89,12 +113,9 @@ header {
 #article-why {
     height: 600px;
     width: 100%;
-    background: #88aee1;
     padding: 15px;
-    box-shadow: 0px 5px 8px gray;
     position: relative;
     z-index: 80;
-    color: white;
 }
 
 #article-why .text {
@@ -112,10 +133,7 @@ header {
     height: 400px;
     width: 100%;
     font-size: 22px;
-    color: white;
-    background: #66e2d1;
     padding: 15px;
-    box-shadow: 0px 5px 8px gray;
     position: relative;
     text-align: right;
     z-index: 70;
@@ -128,12 +146,9 @@ header {
 #article-staff {
     height: 800px;
     width: 100%;
-    background: #88aee1;
     padding: 15px;
-    box-shadow: 0px 5px 8px gray;
     position: relative;
     z-index: 60;
-    color: white;
 }
 
 #article-staff table {
