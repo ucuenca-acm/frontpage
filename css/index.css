@@ -74,6 +74,12 @@ header {
     display: block;
 }
 
+#ucuenca_logo {
+    max-width: 300px;
+    margin: 10px auto;
+    display: block;
+}
+
 #title {
     text-shadow: 3px 3px 2px black;
     text-align: center;
@@ -144,6 +150,14 @@ header {
     padding: 15px;
     position: relative;
     z-index: 60;
+}
+
+#article-footer {
+    height: 300px;
+    width: 100%;
+    padding: 15px;
+    position: relative;
+    z-index: 50;
 }
 
 #article-staff table {
