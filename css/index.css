@@ -143,6 +143,11 @@ header {
     font-size: 1.5em;
 }
 
+#article-membership h5 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
 #article-app {
     width: 100%;
     position: relative;
@@ -156,21 +161,21 @@ header {
     font-size: 1.5em;
 }
 
-#article-app p a {
+.article p a {
     text-decoration: underline;
-    font-size: 100%;
-    color: #fff;
+    color: inherit;
 }
 
-#article-app p a:hover {
-    color: #cff;
-}
-
-#article-app p a:active {
+.article p a:hover {
     text-decoration: none;
 }
 
-.jump-link p a:visited {
+.article p a:active {
+    text-decoration: underline;
+}
+
+.article p a:visited {
+    text-decoration: underline;
 }
 
 .cent {
