@@ -130,6 +130,19 @@ header {
     font-size: 1.5em;
 }
 
+#article-membership {
+    width: 100%;
+    position: relative;
+    text-align: justify;
+    z-index: 80;
+}
+
+#article-membership p {
+    margin-top: 25px;
+    margin-bottom: 35px;
+    font-size: 1.5em;
+}
+
 #article-app {
     width: 100%;
     position: relative;
