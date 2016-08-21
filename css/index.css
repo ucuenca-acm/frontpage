@@ -31,6 +31,11 @@ h4 {
     text-decoration: underline;
 }
 
+.article {
+    padding: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 .article-1 {
     background-color: #fdf6e3;
     color: #586e75;
@@ -95,7 +100,6 @@ header {
 #article-ucuenca {
     height: 400px;
     width: 100%;
-    padding: 15px;
     box-shadow: 0px 5px 8px gray;
     position: relative;
     z-index: 90;
@@ -117,24 +121,62 @@ header {
 
 #article-why {
     width: 100%;
-    padding: 15px;
     position: relative;
+    text-align: justify;
     z-index: 80;
 }
 
 #article-why .text {
     margin-top: 25px;
     font-size: 1.5em;
+}
+
+#article-app {
+    width: 100%;
+    position: relative;
     text-align: justify;
+    z-index: 80;
+}
+
+#article-app p {
+    margin-top: 25px;
+    margin-bottom: 35px;
+    font-size: 1.5em;
+}
+
+#article-app p a {
+    text-decoration: underline;
+    font-size: 100%;
+    color: #fff;
+}
+
+#article-app p a:hover {
+    color: #cff;
+}
+
+#article-app p a:active {
+    text-decoration: none;
+}
+
+.jump-link p a:visited {
+}
+
+.cent {
+    display: block;
+    margin: auto;
 }
 
 #article-contact {
     width: 100%;
-    font-size: 22px;
-    padding: 15px;
     position: relative;
-    text-align: right;
+    text-align: justify;
     z-index: 70;
+}
+
+#article-contact p {
+    margin-top: 25px;
+    margin-bottom: 35px;
+    font-size: 1.5em;
 }
 
 #article-contact .icons img{
@@ -143,7 +185,6 @@ header {
 
 #article-staff {
     width: 100%;
-    padding: 15px;
     position: relative;
     z-index: 60;
 }
