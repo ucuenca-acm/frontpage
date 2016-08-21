@@ -5,10 +5,10 @@ html, body {
 body {
     background: url('../img/ucuenca_landscape-min.jpg') no-repeat center center fixed;
     background-size: cover;
-    /* background-color: #f3f3ff; */
     margin: 0px;
     padding: 0px;
     font-size: medium;
+    font-family: Helvetica;
 }
 
 h1 {
@@ -60,6 +60,7 @@ h4 {
 header {
     box-shadow: 0px 5px 8px gray;
     height: 100%;
+    width: 100%;
     margin: 0px;
     padding: 0px;
     position: relative;
@@ -115,7 +116,6 @@ header {
 }
 
 #article-why {
-    height: 600px;
     width: 100%;
     padding: 15px;
     position: relative;
@@ -129,7 +129,6 @@ header {
 }
 
 #article-contact {
-    height: 900px;
     width: 100%;
     font-size: 22px;
     padding: 15px;
@@ -143,7 +142,6 @@ header {
 }
 
 #article-staff {
-    height: 800px;
     width: 100%;
     padding: 15px;
     position: relative;
@@ -151,7 +149,6 @@ header {
 }
 
 #article-footer {
-    height: 300px;
     width: 100%;
     padding: 15px;
     position: relative;
@@ -163,20 +160,9 @@ header {
     background-color: white;
 }
 
-@media (max-width: 1100px) {
-
-    #article-why {
-        height: 800px;
-    }
-}
-
 @media (max-width: 992px) {
     h3 { font-size: 30px; }
     h4 { font-size: 20px; }
-
-    #article-why {
-        height: 1000px;
-    }
 }
 
 @media (max-width: 768px) {
@@ -189,29 +175,5 @@ header {
 
     #acm_logo {
         max-width: 150px;
-    }
-
-    #article-why {
-        height: 1200px;
-    }
-
-    #article-staff {
-        height: 900px;
-    }
-}
-
-@media (max-width: 700px) {
-    #article-staff {
-        height: 1000px;
-    }
-}
-
-@media (max-width: 650px) {
-    #article-contact {
-        height: 500px;
-    }
-
-    #article-staff {
-        height: 1150px;
     }
 }
