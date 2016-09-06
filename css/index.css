@@ -23,43 +23,28 @@ h2 {
 }
 
 h3 {
+    color: #002b36;
     font-size: 40px;
 }
 
 h4 {
+    color: #586e75;
     font-size: 30px;
     text-decoration: underline;
 }
 
 .article {
-    padding: 15px;
-    padding-top: 50px;
+    color: #586e75;
     padding-bottom: 50px;
+    padding-top: 50px;
+    padding: 15px;
 }
 .article-1 {
     background-color: #fdf6e3;
-    color: #586e75;
-}
-
-.article-1 h3 {
-    color: #002b36;
-}
-
-.article-1 h4 {
-    color: #586e75;
 }
 
 .article-2 {
-    background-color: #657b83;
-    color: #fdf6e3;
-}
-
-.article-2 h3 {
-    color: white;
-}
-
-.article-2 h4 {
-    color: #eee8d5;
+    background-color: #eee8d5;
 }
 
 header {
