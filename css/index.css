@@ -115,6 +115,10 @@ header {
     font-size: 1.5em;
 }
 
+#article-intro #carousel {
+    margin-top: 25px;
+}
+
 #article-why {
     width: 100%;
     position: relative;
