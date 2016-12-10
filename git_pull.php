@@ -1,5 +1,5 @@
 <?php
 
-exec("git pull origin master");
+exec("/home/ucuencahosting/git/git pull origin master");
 
 ?>
